@@ -1,0 +1,171 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Vakilna, Yash Shashank": {
+      "orcid": "0000-0001-5084-9625",
+      "affiliations": [
+        {
+          "name": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States"
+        }
+      ]
+    },
+    "Atilgan, Deniz": {},
+    "Hampson, Johnson P": {
+      "orcid": "0000-0002-6087-3888",
+      "affiliations": [
+        {
+          "name": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States"
+        }
+      ]
+    },
+    "Chinara, Chinmay": {
+      "orcid": "0000-0002-4474-1359",
+      "affiliations": [
+        {
+          "name": "University of Southern California",
+          "identifier": "https://ror.org/03taz7m60",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Medani, Takfarinas": {
+      "orcid": "0000-0003-0774-067X",
+      "affiliations": [
+        {
+          "name": "Ming Hsieh Department of Electrical and Computer Engineering, University of Southern California, Los Angeles, CA 90089, United States"
+        }
+      ]
+    },
+    "Leahy, Richard": {
+      "orcid": "0000-0002-7278-5471",
+      "affiliations": [
+        {
+          "name": "Ming Hsieh Department of Electrical and Computer Engineering, University of Southern California, Los Angeles, CA 90089, United States"
+        }
+      ]
+    },
+    "Lacuey Lecumberri, Nuria": {
+      "orcid": "0000-0002-6067-7414",
+      "affiliations": [
+        {
+          "name": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States"
+        }
+      ]
+    },
+    "Lhatoo, Samden": {
+      "orcid": "0000-0001-8626-1137",
+      "affiliations": [
+        {
+          "name": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States"
+        }
+      ]
+    },
+    "Pati, Sandipan": {
+      "orcid": "0000-0003-4171-2138",
+      "affiliations": [
+        {
+          "name": "Department of Neurology, University of Minnesota Medical School"
+        }
+      ]
+    },
+    "Mosher, John": {
+      "orcid": "0000-0002-3221-229X",
+      "affiliations": [
+        {
+          "name": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States"
+        }
+      ]
+    },
+    "Gavvala, Jay": {
+      "orcid": "0000-0002-9392-6608",
+      "affiliations": [
+        {
+          "name": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.14807262",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1002/acn3.70115",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000483",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000483",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "VakilnaSEEG-fingerprint: sEEG seizure-onset and interictal segments of one polymicrogyria patient with electrode coordinates (Vakilna et al., 2025) (derivative)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "363 MB (18 files)"
+  ],
+  "formats": [
+    ".docx",
+    ".eeg",
+    ".json",
+    ".mat",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "Derivative sEEG dataset from one patient with bilateral perisylvian polymicrogyria and intractable focal seizures. It contains short sensor-space segments of seizure-onset activity (monopolar and bipolar montages) and one interictal spike segment (monopolar only), together with coordinates for 228 depth electrode contacts. The data come from a case study applying time-frequency fingerprint analysis in source space to localize the epileptogenic zone, which led to seizure freedom after laser interstitial thermal therapy. The full raw recording, the MRI, and the authors' source-space results are not included and remain in the Zenodo record.",
+  "methods_description": "Clinical stereo-EEG was recorded with a Nihon Kohden EEG-1200A at 2000 Hz. The authors imported it into Brainstorm, notch-filtered the 180-900 Hz harmonics, and resampled to 1000 Hz. Segments were repackaged as BrainVision float32 in microvolts, with Brainstorm events converted to events.tsv and channel locations (SCS, mm) to electrodes.tsv.",
+  "keywords": [
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "epileptogenic zone"
+    },
+    {
+      "term": "polymicrogyria"
+    },
+    {
+      "term": "seizure onset"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "time-frequency analysis"
+    },
+    {
+      "term": "Brainstorm"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "laser interstitial thermal therapy"
+    }
+  ],
+  "source_hash": "c3681f9d6fbbb936b02c7aac2b91fb72660f276e93e04ad3bfb9090e6347f93f"
+}
