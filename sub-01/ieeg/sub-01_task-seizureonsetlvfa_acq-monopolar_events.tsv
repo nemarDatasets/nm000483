@@ -1,0 +1,8 @@
+onset	duration	sample	trial_type	brainstorm_time
+0.0	0.067	0	transient_notch	-15.0
+15.269	n/a	15269	wave	0.269
+22.078	n/a	22078	MARK ON	7.078
+22.198	n/a	22198	MARK OFF	7.198
+22.318	n/a	22318	MARK ON	7.318
+22.398	n/a	22398	MARK OFF	7.398
+29.933	0.067	29933	transient_notch	14.933

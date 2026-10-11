@@ -1,0 +1,15 @@
+{
+  "age": {
+    "Description": "age in years (Zenodo description: 'A 25-year-old female')",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "F = female (Zenodo description)"
+  },
+  "group": {
+    "Description": "patient"
+  },
+  "diagnosis": {
+    "Description": "from the Zenodo description"
+  }
+}

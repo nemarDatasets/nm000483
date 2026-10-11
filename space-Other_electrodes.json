@@ -1,0 +1,6 @@
+{
+  "SpatialReference": "n/a: the subject's T1 MRI (release file anat/Subject01/subjectimage_MRI.mat, 256x256x256, 1 mm) is not redistributed because it is not defaced",
+  "brainstorm_type": {
+    "Description": "Brainstorm channel type (SEEG, SEEG_NO_LOC = sEEG contact without location, EEG = scalp, EEG REF, ECG)"
+  }
+}

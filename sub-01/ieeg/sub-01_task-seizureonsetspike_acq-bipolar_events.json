@@ -1,0 +1,12 @@
+{
+  "trial_type": {
+    "Description": "Brainstorm event label as released (MARK ON/OFF = clinical system marks; 'wave', 'spiking', 'spike' = authors' markers; 'PIN 1-6', 'PLON 1/2', 'PLAT 6-8' = authors' channel annotations at onset; transient_notch = filter edge artefact window)"
+  },
+  "brainstorm_time": {
+    "Description": "event time on the Brainstorm time axis (0 = the segment's reference event, e.g. seizure onset)",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "n/a for point events; extended events carry their length"
+  }
+}

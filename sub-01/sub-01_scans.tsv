@@ -1,0 +1,6 @@
+filename	acq_time
+ieeg/sub-01_task-seizureonsetlvfa_acq-monopolar_ieeg.vhdr	n/a
+ieeg/sub-01_task-seizureonsetlvfa_acq-bipolar_ieeg.vhdr	n/a
+ieeg/sub-01_task-seizureonsetspike_acq-monopolar_ieeg.vhdr	n/a
+ieeg/sub-01_task-seizureonsetspike_acq-bipolar_ieeg.vhdr	n/a
+ieeg/sub-01_task-interictalspike_acq-monopolar_ieeg.vhdr	n/a

@@ -1,0 +1,214 @@
+{
+  "created": "2025-02-05T05:49:03.303859+00:00",
+  "modified": "2025-07-02T23:41:16.335568+00:00",
+  "id": 14807262,
+  "conceptrecid": "14807261",
+  "doi": "10.5281/zenodo.14807262",
+  "conceptdoi": "10.5281/zenodo.14807261",
+  "doi_url": "https://doi.org/10.5281/zenodo.14807262",
+  "metadata": {
+    "title": "Time-Frequency Fingerprint Analysis in SEEG Source-Space to Identify the Epileptogenic Zone",
+    "doi": "10.5281/zenodo.14807262",
+    "publication_date": "2025-02-05",
+    "description": "<p>This case study highlights the application of seizure fingerprint analysis in the source-space of SEEG data to accurately localize the epileptogenic zone (EZ) in patients with complex cortical malformations. A 25-year-old female with extensive bilateral perisylvian polymicrogyria presented with intractable focal seizures. The source-level analysis performed in Brainstorm using the sLORETA imaging algorithm subsequently showed EZ fingerprint analysis. The patient underwent MR-guided laser interstitial thermal therapy, targeting the identified EZ, resulting in postoperative seizure freedom with minimal complications. Extending the analysis from the sensor-space to the source-space could further enhance surgical planning and improve outcomes in complex epilepsy cases.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Vakilna, Yash Shashank",
+        "affiliation": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States",
+        "orcid": "0000-0001-5084-9625"
+      },
+      {
+        "name": "Atilgan, Deniz",
+        "affiliation": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States"
+      },
+      {
+        "name": "Hampson, Johnson P",
+        "affiliation": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States",
+        "orcid": "0000-0002-6087-3888"
+      },
+      {
+        "name": "Chinara, Chinmay",
+        "affiliation": "University of Southern California",
+        "orcid": "0000-0002-4474-1359"
+      },
+      {
+        "name": "Medani, Takfarinas",
+        "affiliation": "Ming Hsieh Department of Electrical and Computer Engineering, University of Southern California, Los Angeles, CA 90089, United States",
+        "orcid": "0000-0003-0774-067X"
+      },
+      {
+        "name": "Leahy, Richard",
+        "affiliation": "Ming Hsieh Department of Electrical and Computer Engineering, University of Southern California, Los Angeles, CA 90089, United States",
+        "orcid": "0000-0002-7278-5471"
+      },
+      {
+        "name": "Lacuey Lecumberri, Nuria",
+        "affiliation": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States",
+        "orcid": "0000-0002-6067-7414"
+      },
+      {
+        "name": "Lhatoo, Samden",
+        "affiliation": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States",
+        "orcid": "0000-0001-8626-1137"
+      },
+      {
+        "name": "Pati, Sandipan",
+        "affiliation": "Department of Neurology, University of Minnesota Medical School",
+        "orcid": "0000-0003-4171-2138"
+      },
+      {
+        "name": "Mosher, John",
+        "affiliation": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States",
+        "orcid": "0000-0002-3221-229X"
+      },
+      {
+        "name": "Gavvala, Jay",
+        "affiliation": "Texas Institute for Restorative Neurotechnologies (TIRN), Department of Neurology, McGovern Medical School, University of Texas Health Science Center at Houston, Houston, TX 77054, United States",
+        "orcid": "0000-0002-9392-6608"
+      }
+    ],
+    "keywords": [
+      "source localization",
+      "time-frequency decomposition",
+      "SEEG",
+      "Polymicrogyria"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1002/acn3.70115",
+        "relation": "isPublishedIn",
+        "resource_type": "publication",
+        "scheme": "doi"
+      }
+    ],
+    "version": "v1",
+    "custom": {
+      "code:programmingLanguage": [
+        {
+          "id": "matlab",
+          "title": {
+            "en": "MATLAB"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Preprint",
+      "type": "publication",
+      "subtype": "preprint"
+    },
+    "journal": {
+      "pages": "acn3.70115",
+      "title": "Time‐Frequency Fingerprint Analysis in <span style=\"font-variant:small-caps;\">SEEG</span> Source‐Space to Identify the Epileptogenic Zone"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "R01EB026299",
+        "internal_id": "00372qc85::R01EB026299",
+        "funder": {
+          "name": "National Institute of Biomedical Imaging and Bioengineering"
+        }
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": false,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14807261"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Time-Frequency Fingerprint Analysis in SEEG Source-Space to Identify the Epileptogenic Zone",
+  "links": {
+    "self": "https://zenodo.org/api/records/14807262",
+    "self_html": "https://zenodo.org/records/14807262",
+    "preview_html": "https://zenodo.org/records/14807262?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.14807262",
+    "self_doi": "https://doi.org/10.5281/zenodo.14807262",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14807262",
+    "reserve_doi": "https://zenodo.org/api/records/14807262/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/14807261",
+    "parent_html": "https://zenodo.org/records/14807261",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14807261",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14807261",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:14807262/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:14807262/sequence/default",
+    "files": "https://zenodo.org/api/records/14807262/files",
+    "media_files": "https://zenodo.org/api/records/14807262/media-files",
+    "latest": "https://zenodo.org/api/records/14807262/versions/latest",
+    "latest_html": "https://zenodo.org/records/14807262/latest",
+    "versions": "https://zenodo.org/api/records/14807262/versions",
+    "draft": "https://zenodo.org/api/records/14807262/draft",
+    "access_links": "https://zenodo.org/api/records/14807262/access/links",
+    "access_grants": "https://zenodo.org/api/records/14807262/access/grants",
+    "access_users": "https://zenodo.org/api/records/14807262/access/users",
+    "access_request": "https://zenodo.org/api/records/14807262/access/request",
+    "access": "https://zenodo.org/api/records/14807262/access",
+    "communities": "https://zenodo.org/api/records/14807262/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/14807262/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/14807262/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/14807262/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/14807262/quota-increase",
+    "requests": "https://zenodo.org/api/records/14807262/requests"
+  },
+  "updated": "2025-07-02T23:41:16.335568+00:00",
+  "recid": "14807262",
+  "revision": 5,
+  "files": [
+    {
+      "id": "1667b819-b96d-4cec-8ec4-233bae7c5402",
+      "key": "Supplementary Figures.docx",
+      "size": 3074057,
+      "checksum": "md5:9ff3cd917e013719c9ac15087d39270e",
+      "links": {
+        "self": "https://zenodo.org/api/records/14807262/files/Supplementary%20Figures.docx/content"
+      }
+    },
+    {
+      "id": "8fba33de-b194-44e6-96c7-2b0b5a5c9f79",
+      "key": "BST_dataset.zip",
+      "size": 3195877636,
+      "checksum": "md5:43c84a125ce8456d6b53b3ccdd12d36f",
+      "links": {
+        "self": "https://zenodo.org/api/records/14807262/files/BST_dataset.zip/content"
+      }
+    },
+    {
+      "id": "b4d1e705-f358-4f58-88ff-b455ee2cd38b",
+      "key": "main.docx",
+      "size": 3448292,
+      "checksum": "md5:8a57434bb38de14717dce5ef5c54c25a",
+      "links": {
+        "self": "https://zenodo.org/api/records/14807262/files/main.docx/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "293577"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 753,
+    "unique_downloads": 694,
+    "views": 584,
+    "unique_views": 549,
+    "version_downloads": 342,
+    "version_unique_downloads": 313,
+    "version_unique_views": 393,
+    "version_views": 418
+  },
+  "state": "done",
+  "submitted": true
+}

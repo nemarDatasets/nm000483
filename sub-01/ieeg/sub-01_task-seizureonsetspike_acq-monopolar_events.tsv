@@ -1,0 +1,7 @@
+onset	duration	sample	trial_type	brainstorm_time
+0.0	0.066	0	transient_notch	-15.0
+14.938	n/a	14938	PIN 1-6	-0.062
+24.214	n/a	24214	PLON 1/2	9.214
+24.719	n/a	24719	spiking	9.719
+26.426	n/a	26426	PLAT 6-8	11.426
+29.934	0.066	29934	transient_notch	14.934

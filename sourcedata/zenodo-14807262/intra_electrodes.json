@@ -1,0 +1,149 @@
+{
+  "IntraElectrodes": [
+    {
+      "Name": "AH",
+      "Type": "SEEG",
+      "ContactNumber": 14.0,
+      "ContactSpacing_m": 0.003553,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "ALAT",
+      "Type": "SEEG",
+      "ContactNumber": 14.0,
+      "ContactSpacing_m": 0.003576,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "ALON",
+      "Type": "SEEG",
+      "ContactNumber": 16.0,
+      "ContactSpacing_m": 0.004453,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "MC",
+      "Type": "SEEG",
+      "ContactNumber": 16.0,
+      "ContactSpacing_m": 0.003948,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "MPM",
+      "Type": "SEEG",
+      "ContactNumber": 16.0,
+      "ContactSpacing_m": 0.003494,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "MPS",
+      "Type": "SEEG",
+      "ContactNumber": 14.0,
+      "ContactSpacing_m": 0.003941,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "PH",
+      "Type": "SEEG",
+      "ContactNumber": 14.0,
+      "ContactSpacing_m": 0.00348,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "PIN",
+      "Type": "SEEG",
+      "ContactNumber": 16.0,
+      "ContactSpacing_m": 0.004304,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "PLAT",
+      "Type": "SEEG",
+      "ContactNumber": 12.0,
+      "ContactSpacing_m": 0.003477,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "PLON",
+      "Type": "SEEG",
+      "ContactNumber": 16.0,
+      "ContactSpacing_m": 0.003876,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "POP",
+      "Type": "SEEG",
+      "ContactNumber": 16.0,
+      "ContactSpacing_m": 0.004428,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "PSIN",
+      "Type": "SEEG",
+      "ContactNumber": 12.0,
+      "ContactSpacing_m": 0.003424,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "SMA",
+      "Type": "SEEG",
+      "ContactNumber": 14.0,
+      "ContactSpacing_m": 0.003508,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "SPL",
+      "Type": "SEEG",
+      "ContactNumber": 10.0,
+      "ContactSpacing_m": 0.003466,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "SPM",
+      "Type": "SEEG",
+      "ContactNumber": 16.0,
+      "ContactSpacing_m": 0.003739,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    },
+    {
+      "Name": "SPS",
+      "Type": "SEEG",
+      "ContactNumber": 12.0,
+      "ContactSpacing_m": 0.003498,
+      "ContactDiameter_m": 0.0008,
+      "ContactLength_m": 0.002,
+      "ElecLength_m": 0.07
+    }
+  ],
+  "note": "Brainstorm IntraElectrodes definitions of the release channel file (names, contact number/spacing/diameter/length, electrode length; metres)"
+}

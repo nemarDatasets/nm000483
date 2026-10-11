@@ -1,0 +1,207 @@
+{
+  "cand_id": "src-literature-187",
+  "converter": "harness/o5c_B_conv_lit187.py (ieeg-nemar-20261005 campaign, lane o5c-B)",
+  "licence": {
+    "value": "cc-by-4.0",
+    "read_from": "zenodo api metadata.license.id"
+  },
+  "runs": [
+    {
+      "n_samples": 30001,
+      "sfreq": 1000.0,
+      "n_channels": 267,
+      "float32_max_abs_err": 1201.6249771118164,
+      "roundtrip_ok": true,
+      "duration_s": 30.001,
+      "sub": "sub-01",
+      "task": "seizureonsetlvfa",
+      "acq": "monopolar",
+      "stem": "sub-01_task-seizureonsetlvfa_acq-monopolar",
+      "source": "LVFA_and_wave/data_sEEG_onset__SPS_PLON_trial001_notch_resample.mat",
+      "n_events": 7,
+      "time_axis": [
+        -15.0,
+        15.0
+      ],
+      "n_bad": 1,
+      "comment": "sEEG onset: SPS/PLON (#1) | notch(180Hz 300Hz 420Hz 540Hz 660Hz 780Hz 900Hz)"
+    },
+    {
+      "n_samples": 30001,
+      "sfreq": 1000.0,
+      "n_channels": 206,
+      "float32_max_abs_err": 0.00012206858946228749,
+      "roundtrip_ok": true,
+      "duration_s": 30.001,
+      "sub": "sub-01",
+      "task": "seizureonsetlvfa",
+      "acq": "bipolar",
+      "stem": "sub-01_task-seizureonsetlvfa_acq-bipolar",
+      "source": "LVFA_and_wave_bipolar_2/data_sEEG_onset__SPS_PLON_trial001_notch_resample_montage.mat",
+      "n_events": 7,
+      "time_axis": [
+        -15.0,
+        15.0
+      ],
+      "n_bad": 1,
+      "comment": "sEEG onset: SPS/PLON (#1) | notch(180Hz 300Hz 420Hz 540Hz 660Hz 780Hz 900Hz) | bipolar 2"
+    },
+    {
+      "n_samples": 30001,
+      "sfreq": 1000.0,
+      "n_channels": 267,
+      "float32_max_abs_err": 1201.6249771118164,
+      "roundtrip_ok": true,
+      "duration_s": 30.001,
+      "sub": "sub-01",
+      "task": "seizureonsetspike",
+      "acq": "monopolar",
+      "stem": "sub-01_task-seizureonsetspike_acq-monopolar",
+      "source": "ictal_repetitive_spike/data_EEG_onset_trial001_notch_resample.mat",
+      "n_events": 6,
+      "time_axis": [
+        -15.0,
+        15.0
+      ],
+      "n_bad": 1,
+      "comment": "sEEG onset (#1) | notch(180Hz 300Hz 420Hz 540Hz 660Hz 780Hz 900Hz)"
+    },
+    {
+      "n_samples": 30001,
+      "sfreq": 1000.0,
+      "n_channels": 206,
+      "float32_max_abs_err": 0.00012192903113827924,
+      "roundtrip_ok": true,
+      "duration_s": 30.001,
+      "sub": "sub-01",
+      "task": "seizureonsetspike",
+      "acq": "bipolar",
+      "stem": "sub-01_task-seizureonsetspike_acq-bipolar",
+      "source": "ictal_repetitive_spike_bipolar_2/data_EEG_onset_trial001_notch_resample_montage.mat",
+      "n_events": 6,
+      "time_axis": [
+        -15.0,
+        15.0
+      ],
+      "n_bad": 2,
+      "comment": "sEEG onset (#1) | notch(180Hz 300Hz 420Hz 540Hz 660Hz 780Hz 900Hz) | bipolar 2"
+    },
+    {
+      "n_samples": 10001,
+      "sfreq": 1000.0,
+      "n_channels": 267,
+      "float32_max_abs_err": 1024.6616973876953,
+      "roundtrip_ok": true,
+      "duration_s": 10.001,
+      "sub": "sub-01",
+      "task": "interictalspike",
+      "acq": "monopolar",
+      "stem": "sub-01_task-interictalspike_acq-monopolar",
+      "source": "interictal_spike/data_Spike_trial001_notch_resample.mat",
+      "n_events": 3,
+      "time_axis": [
+        -5.0,
+        5.0
+      ],
+      "n_bad": 0,
+      "comment": "Spike (#1) | notch(180Hz 300Hz 420Hz 540Hz 660Hz 780Hz 900Hz)"
+    }
+  ],
+  "sourcedata": [
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/LVFA_and_wave/brainstormstudy.mat",
+      "bytes": 300,
+      "sha256": "14b0cf0735657400b39e090f44085fb99c756c51aa9ec94ec3364930b07678ec"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/LVFA_and_wave/channel.mat",
+      "bytes": 25371,
+      "sha256": "aaf9f1dfd6ab05f85361ad541806ff0ea585207b49baaee063d2b96bd8a6fc64"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/LVFA_and_wave/data_sEEG_onset__SPS_PLON_trial001_notch_resample.mat",
+      "bytes": 64328291,
+      "sha256": "6dd795d369c4c70cf03d5890406c080ddd96b17a4b878b38ec37dd76dec53175"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/LVFA_and_wave_bipolar_2/brainstormstudy.mat",
+      "bytes": 318,
+      "sha256": "528d35e32e40b32ebe9cfe2812cd5f27975c4f2a212657b8725eeae36c0a4155"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/LVFA_and_wave_bipolar_2/channel.mat",
+      "bytes": 24830,
+      "sha256": "3b842fd62e8305d52b5e614893d2527f814beb13d7d1b68dab94bc36924ad821"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/LVFA_and_wave_bipolar_2/data_sEEG_onset__SPS_PLON_trial001_notch_resample_montage.mat",
+      "bytes": 49688136,
+      "sha256": "c39c1da2c969f55a7782b82b6fb9d23f17c37d2fffe38533d5a74e78087366d7"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/ictal_repetitive_spike/brainstormstudy.mat",
+      "bytes": 300,
+      "sha256": "930735dab6b329483e8f1dd4a03969f4dc88f51ac8fb934ca4a31a5573cb70bd"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/ictal_repetitive_spike/channel_02.mat",
+      "bytes": 25347,
+      "sha256": "9c96d9ddf80c032bad708ffdc2756afabb6af90da56696d153e7aaba49cb1152"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/ictal_repetitive_spike/data_EEG_onset_trial001_notch_resample.mat",
+      "bytes": 64328065,
+      "sha256": "6f2673f2eb35987030676433f75a4c44012c40aca9a9338de4cbb75d325f9011"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/ictal_repetitive_spike_bipolar_2/brainstormstudy.mat",
+      "bytes": 326,
+      "sha256": "ed3cb1e31564dc6e176905b38235d5b976fedc875e279184d742bd9a36f40805"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/ictal_repetitive_spike_bipolar_2/channel.mat",
+      "bytes": 24807,
+      "sha256": "332771ad9db302207c629915c11083691ebc7508cf1cb63c04188e84882c78bf"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/ictal_repetitive_spike_bipolar_2/data_EEG_onset_trial001_notch_resample_montage.mat",
+      "bytes": 49687904,
+      "sha256": "472eac8886bb1985095ea2b70b1c9f86810482a3a0dcf1a438fc63278223bf65"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/interictal_spike/brainstormstudy.mat",
+      "bytes": 300,
+      "sha256": "32c2becfb1710f4d78a93e860b75a7c52037671a3312aa0857bf97f043cc43b2"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/interictal_spike/channel.mat",
+      "bytes": 25371,
+      "sha256": "b3d984d622e62db8c0bdc826026803174f8aedb5f5ee1e7477463dcabd97fb52"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/data/Subject01/interictal_spike/data_Spike_trial001_notch_resample.mat",
+      "bytes": 21446684,
+      "sha256": "683b9f9caff09078213a177d44665f29e6690898f2e430a9de8c92cb94ea982f"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/protocol.mat",
+      "bytes": 6773,
+      "sha256": "ac0e0201a45d8484a53865d9a66648f60f2e5fca548d8f773ee690b28dc9c464"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/main.docx",
+      "bytes": 3448292,
+      "sha256": "d6f718e82a278062606042422de9473ce5b8ee837ff8c502e10f3ec6b05909d6"
+    },
+    {
+      "dst": "sourcedata/zenodo-14807262/Supplementary Figures.docx",
+      "bytes": 3074057,
+      "sha256": "fdbbca3330f08288e68e000dbbc7e14ec73b89a1c8da45c64f214f36cc21a9b2"
+    }
+  ],
+  "hours": 0.019445277777777777,
+  "subjects": 1,
+  "n_recordings": 5,
+  "n_located_contacts": 222,
+  "roundtrip_all_ok": true
+}

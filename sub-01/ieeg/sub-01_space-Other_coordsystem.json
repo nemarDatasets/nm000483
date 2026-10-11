@@ -1,0 +1,7 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "Brainstorm subject coordinate system (SCS) of the release channel file: origin midway between LPA and RPA, X towards the nasion, Y towards LPA, Z up; defined on the subject's own T1 MRI (fiducials in the release MRI file). Native space, converted from metres to millimetres; contacts typed SEEG_NO_LOC/EEG/ECG/REF have no location (n/a). The MRI is not redistributed (not defaced); the Zenodo record contains it (anat/Subject01/subjectimage_MRI.mat) together with cortex surfaces and volume atlases.",
+  "iEEGCoordinateProcessingDescription": "as released (authors' electrode localisation in Brainstorm)",
+  "iEEGCoordinateProcessingReference": "https://doi.org/10.1002/acn3.70115"
+}

@@ -1,0 +1,34 @@
+{
+  "TaskName": "seizureonsetspike",
+  "TaskDescription": "Seizure onset with repetitive spiking (release study folder ictal_repetitive_spike; -15..+15 s around the sEEG onset). No task: clinical sEEG monitoring segment selected by the authors.",
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "Brainstorm (authors)": {
+      "steps": [
+        "Import from: F:\\yash\\seeg\\RP\\data\\RP1\\@rawNA7021PK\\NA7021PK.bst (Event)",
+        "    Remove baseline (all)",
+        "process_notch: Notch filter: 180Hz 300Hz 420Hz 540Hz 660Hz 780Hz 900Hz",
+        "process_resample: Resample from 2000.00 Hz to 1000.00 Hz ()"
+      ],
+      "comment": "sEEG onset (#1) | notch(180Hz 300Hz 420Hz 540Hz 660Hz 780Hz 900Hz) | bipolar 2"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "bipolar (Brainstorm 'bipolar 2' montage)",
+  "iEEGPlacementScheme": "Stereo-EEG, 16 depth electrodes (AH, ALAT, ALON, MC, MPM, MPS, PH, PIN, PLAT, PLON, POP, PSIN, SMA, SPL, SPM, SPS); release case: 25-year-old female with bilateral perisylvian polymicrogyria",
+  "Manufacturer": "Nihon Kohden",
+  "ManufacturersModelName": "Nihon Kohden EEG-1200A V01.00",
+  "ElectricalStimulation": false,
+  "InstitutionName": "n/a",
+  "RecordingType": "epoched",
+  "EpochLength": 30.001,
+  "SamplingFrequency": 1000.0,
+  "RecordingDuration": 30.001,
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 206,
+  "DBSChannelCount": 0,
+  "EEGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0
+}

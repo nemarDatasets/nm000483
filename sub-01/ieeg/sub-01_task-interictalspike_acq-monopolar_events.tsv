@@ -1,0 +1,4 @@
+onset	duration	sample	trial_type	brainstorm_time
+-0.0	0.067	0	transient_notch	-5.0
+5.041	n/a	5041	spike	0.041
+9.933	0.067	9933	transient_notch	4.933

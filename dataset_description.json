@@ -1,0 +1,50 @@
+{
+  "Name": "VakilnaSEEG-fingerprint: sEEG seizure-onset and interictal segments of one polymicrogyria patient with electrode coordinates (Vakilna et al., 2025) (derivative)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Vakilna, Yash Shashank",
+    "Atilgan, Deniz",
+    "Hampson, Johnson P",
+    "Chinara, Chinmay",
+    "Medani, Takfarinas",
+    "Leahy, Richard",
+    "Lacuey Lecumberri, Nuria",
+    "Lhatoo, Samden",
+    "Pati, Sandipan",
+    "Mosher, John",
+    "Gavvala, Jay"
+  ],
+  "HowToAcknowledge": "Cite Vakilna YS et al. (2025) Time-Frequency Fingerprint Analysis in SEEG Source-Space to Identify the Epileptogenic Zone, Ann Clin Transl Neurol, doi:10.1002/acn3.70115, and the Zenodo dataset doi:10.5281/zenodo.14807262.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.5281/zenodo.14807262",
+    "https://doi.org/10.1002/acn3.70115"
+  ],
+  "EthicsApprovals": [
+    "Collected under the source study's approval (University of Texas Health Science Center at Houston); see the article"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.14807262",
+      "URL": "https://zenodo.org/records/14807262",
+      "Version": "Zenodo version v1 (2025-02-05)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "o5c_B_conv_lit187.py",
+      "Description": "Brainstorm sensor-space data files (notch-filtered, resampled to 1000 Hz by the authors) repackaged as BrainVision float32 in microvolts; Brainstorm events to events.tsv; channel locations (SCS) to electrodes.tsv. No further processing. Code in code/."
+    }
+  ],
+  "Keywords": [
+    "source localization",
+    "time-frequency decomposition",
+    "SEEG",
+    "Polymicrogyria",
+    "stereo-EEG",
+    "epileptogenic zone",
+    "seizure onset",
+    "Brainstorm"
+  ]
+}

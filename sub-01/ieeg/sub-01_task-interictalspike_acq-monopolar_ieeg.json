@@ -1,0 +1,35 @@
+{
+  "TaskName": "interictalspike",
+  "TaskDescription": "Interictal spike (release study folder interictal_spike; -5..+5 s around the spike). No task: clinical sEEG monitoring segment selected by the authors.",
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "Brainstorm (authors)": {
+      "steps": [
+        "Import from: Y:\\Yash\\bs-tutorial\\UTAH\\KA80801R.edf (Event)",
+        "    Remove baseline (all)",
+        "Imported from Matlab variable: d",
+        "process_notch: Notch filter: 180Hz 300Hz 420Hz 540Hz 660Hz 780Hz 900Hz",
+        "process_resample: Resample from 2000.00 Hz to 1000.00 Hz ()"
+      ],
+      "comment": "Spike (#1) | notch(180Hz 300Hz 420Hz 540Hz 660Hz 780Hz 900Hz)"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "n/a (recording reference of the clinical system; channel typed EEG REF is the reference electrode)",
+  "iEEGPlacementScheme": "Stereo-EEG, 16 depth electrodes (AH, ALAT, ALON, MC, MPM, MPS, PH, PIN, PLAT, PLON, POP, PSIN, SMA, SPL, SPM, SPS); release case: 25-year-old female with bilateral perisylvian polymicrogyria",
+  "Manufacturer": "Nihon Kohden",
+  "ManufacturersModelName": "EDF",
+  "ElectricalStimulation": false,
+  "InstitutionName": "n/a",
+  "RecordingType": "epoched",
+  "EpochLength": 10.001,
+  "SamplingFrequency": 1000.0,
+  "RecordingDuration": 10.001,
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 224,
+  "DBSChannelCount": 0,
+  "EEGChannelCount": 11,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 26,
+  "TriggerChannelCount": 1
+}
