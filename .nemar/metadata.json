@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "VakilnaSEEG-fingerprint: sEEG seizure-onset and interictal segments of one polymicrogyria patient with electrode coordinates (Vakilna et al., 2025) (derivative)",
+  "description": "Derivative sEEG dataset from one patient with bilateral perisylvian polymicrogyria and intractable focal seizures, comprising short sensor-space segments of seizure onset and interictal spikes with electrode coordinates. Data were repackaged from a Brainstorm database accompanying a case study using seizure fingerprint analysis in source space to localize the epileptogenic zone. Monopolar and bipolar montage versions are provided in BrainVision format with events and electrode locations.",
+  "methods_description": "Clinical stereo-EEG was recorded on a Nihon Kohden EEG-1200A at 2000 Hz, imported into Brainstorm, notch-filtered (180-900 Hz harmonics) and resampled to 1000 Hz. Segments were converted to BrainVision float32 in microvolts, with Brainstorm events written to events.tsv and contact locations (SCS, mm) to electrodes.tsv.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Vakilna, Yash Shashank": {
       "orcid": "0000-0001-5084-9625",
@@ -86,6 +91,43 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "SEEG"
+    },
+    {
+      "term": "epileptogenic zone"
+    },
+    {
+      "term": "polymicrogyria"
+    },
+    {
+      "term": "seizure onset"
+    },
+    {
+      "term": "source localization"
+    },
+    {
+      "term": "time-frequency decomposition"
+    },
+    {
+      "term": "Brainstorm"
+    },
+    {
+      "term": "sLORETA"
+    },
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.14807262",
@@ -108,14 +150,11 @@
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "VakilnaSEEG-fingerprint: sEEG seizure-onset and interictal segments of one polymicrogyria patient with electrode coordinates (Vakilna et al., 2025) (derivative)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "363 MB (18 files)"
   ],
@@ -124,48 +163,12 @@
     ".eeg",
     ".json",
     ".mat",
+    ".md",
     ".py",
     ".tsv",
     ".vhdr",
     ".vmrk",
     ".yml"
   ],
-  "description": "Derivative sEEG dataset from one patient with bilateral perisylvian polymicrogyria and intractable focal seizures. It contains short sensor-space segments of seizure-onset activity (monopolar and bipolar montages) and one interictal spike segment (monopolar only), together with coordinates for 228 depth electrode contacts. The data come from a case study applying time-frequency fingerprint analysis in source space to localize the epileptogenic zone, which led to seizure freedom after laser interstitial thermal therapy. The full raw recording, the MRI, and the authors' source-space results are not included and remain in the Zenodo record.",
-  "methods_description": "Clinical stereo-EEG was recorded with a Nihon Kohden EEG-1200A at 2000 Hz. The authors imported it into Brainstorm, notch-filtered the 180-900 Hz harmonics, and resampled to 1000 Hz. Segments were repackaged as BrainVision float32 in microvolts, with Brainstorm events converted to events.tsv and channel locations (SCS, mm) to electrodes.tsv.",
-  "keywords": [
-    {
-      "term": "stereo-EEG"
-    },
-    {
-      "term": "SEEG"
-    },
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "epileptogenic zone"
-    },
-    {
-      "term": "polymicrogyria"
-    },
-    {
-      "term": "seizure onset"
-    },
-    {
-      "term": "source localization"
-    },
-    {
-      "term": "time-frequency analysis"
-    },
-    {
-      "term": "Brainstorm"
-    },
-    {
-      "term": "epilepsy"
-    },
-    {
-      "term": "laser interstitial thermal therapy"
-    }
-  ],
-  "source_hash": "c3681f9d6fbbb936b02c7aac2b91fb72660f276e93e04ad3bfb9090e6347f93f"
+  "source_hash": "dccf69fb6317ab48899b0e2a9612ebc703faee5d6bb3063c5af06e98d5ed407f"
 }
