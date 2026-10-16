@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "VakilnaSEEG-fingerprint: sEEG seizure-onset and interictal segments of one polymicrogyria patient with electrode coordinates (Vakilna et al., 2025) (derivative)",
-  "description": "A derivative sEEG dataset from one patient with extensive bilateral perisylvian polymicrogyria and intractable focal seizures. It contains short sensor-space segments of seizure onset and interictal spikes in monopolar and bipolar montages, with electrode coordinates for 228 located depth contacts. The data support source-space time-frequency fingerprint analysis for localizing the epileptogenic zone.",
-  "methods_description": "Clinical stereo-EEG was recorded with a Nihon Kohden EEG-1200A at 2000 Hz. The authors imported it into Brainstorm, notch-filtered the 180-900 Hz harmonics and resampled to 1000 Hz. Segments were repackaged as BrainVision float32 in microvolts, with Brainstorm events converted to events.tsv and channel locations (SCS) to electrodes.tsv.",
+  "description": "Derivative sEEG dataset from a single patient with bilateral perisylvian polymicrogyria and intractable focal seizures, comprising short seizure-onset and interictal segments in monopolar and bipolar montages. Channel locations for 228 depth-electrode contacts are included. The data come from a case study that applied time-frequency fingerprint analysis in source space to localize the epileptogenic zone, after which the patient was treated with MR-guided laser interstitial thermal therapy and became seizure-free.",
+  "methods_description": "Clinical stereo-EEG was recorded with a Nihon Kohden EEG-1200A at 2000 Hz. The authors imported it into Brainstorm, notch-filtered the 180-900 Hz harmonics, and resampled to 1000 Hz. The segments were repackaged as BrainVision float32 in microvolts, with Brainstorm events converted to events.tsv and channel locations (SCS) to electrodes.tsv.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -99,27 +99,22 @@
       "term": "SEEG"
     },
     {
-      "term": "seizure onset"
-    },
-    {
       "term": "epileptogenic zone"
     },
     {
       "term": "polymicrogyria"
     },
     {
-      "term": "source localization"
+      "term": "seizure onset"
     },
     {
-      "term": "time-frequency analysis"
+      "term": "source localization"
     },
     {
       "term": "Brainstorm"
     },
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "Epilepsy"
     }
   ],
   "related_identifiers": [
