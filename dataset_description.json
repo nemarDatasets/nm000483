@@ -1,5 +1,5 @@
 {
-  "Name": "Vakilna-2025-timefrequency-10.1002/acn3.70115",
+  "Name": "VakilnaSEEG-fingerprint: sEEG seizure-onset and interictal segments of one polymicrogyria patient with electrode coordinates (Vakilna et al., 2025) (derivative)",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -48,5 +48,5 @@
     "Brainstorm"
   ],
   "DatasetDOI": "10.82901/nemar.nm000483",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
