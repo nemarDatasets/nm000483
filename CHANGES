@@ -1,3 +1,8 @@
+1.0.3 2026-10-18
+  - ieeg.json of 5 files: RecordingType epoched -> continuous (each file is one contiguous excerpt; no EpochLength or EpochLength = whole file; read_raw_bids refused them and read_epochs_bids failed).
+  - README: section 'RecordingType (18 Oct 2026)'.
+  - dataset_description.json: Version 1.0.2 -> 1.0.3.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 

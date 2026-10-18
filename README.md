@@ -30,3 +30,7 @@ volume atlases of the release are NOT redistributed (the MRI is not defaced); th
 ## Provenance
 Converted by the ieeg-nemar-20261005 campaign (lane o5c-B) with `code/o5c_B_conv_lit187.py`; round-trip checks (MNE
 read-back) in code/conversion_report.json. sourcedata holds the converted Brainstorm data/channel/study files verbatim.
+
+## RecordingType (18 Oct 2026)
+
+5 data files were marked `RecordingType` epoched without a usable epoch definition (no `EpochLength`, or `EpochLength` equal to the whole file). Each of them is ONE contiguous excerpt (no segment boundary in the .vmrk, no gap): there is nothing to cut into epochs, `read_raw_bids` refuses epoched files and `read_epochs_bids` failed (missing `EpochLength`, or an epoch dropped for every event that does not start at sample 0). `RecordingType` is now continuous (and `EpochLength` removed where it was present, 5 files); the files read with `read_raw_bids` and every event stays an annotation. The excerpts are still the authors' fixed windows (see above); only the BIDS label changed.
