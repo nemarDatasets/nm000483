@@ -34,3 +34,15 @@ read-back) in code/conversion_report.json. sourcedata holds the converted Brains
 ## RecordingType (18 Oct 2026)
 
 5 data files were marked `RecordingType` epoched without a usable epoch definition (no `EpochLength`, or `EpochLength` equal to the whole file). Each of them is ONE contiguous excerpt (no segment boundary in the .vmrk, no gap): there is nothing to cut into epochs, `read_raw_bids` refuses epoched files and `read_epochs_bids` failed (missing `EpochLength`, or an epoch dropped for every event that does not start at sample 0). `RecordingType` is now continuous (and `EpochLength` removed where it was present, 5 files); the files read with `read_raw_bids` and every event stays an annotation. The excerpts are still the authors' fixed windows (see above); only the BIDS label changed.
+
+## Channel types and non-neural channel values (fix-20261030, Oct 2026)
+
+- `sub-01_task-seizureonsetspike_acq-monopolar`: the 11 scalp electrodes `F3`, `C3`, `P3`, `O1`, `F4`, `C4`, `P4`, `O2`,
+  `FZ`, `CZ`, `PZ` were typed MISC, because that file's Brainstorm channel file (`ictal_repetitive_spike/channel_02.mat`)
+  types them MISC. The channel files of the other two monopolar segments of the same recording (`LVFA_and_wave/channel.mat`,
+  `interictal_spike/channel.mat`) type the same 11 electrodes EEG, so they are now typed EEG here too.
+- Values of the non-neural channels: all channels were converted from Brainstorm's volts to microvolts (x 1e6), including
+  the channels that do not carry voltages. The marker channel `Events` (TRIG) therefore holds values up to 3.5e10, and the
+  MISC channels (DC inputs, blood pressure, CO2, SpO2, respiration and other monitors) up to 4.1e5 (maximum |value| per
+  monopolar file: TRIG 3.50e10; MISC 6.1e4, 4.1e5 and 1.4e5; SEEG at most 3,335; check of 30 Oct 2026). These channels
+  have `units` n/a; their values are not microvolts and should not be used as signals.

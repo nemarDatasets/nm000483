@@ -26,8 +26,8 @@
   "ECOGChannelCount": 0,
   "SEEGChannelCount": 224,
   "DBSChannelCount": 0,
-  "EEGChannelCount": 0,
+  "EEGChannelCount": 11,
   "EMGChannelCount": 0,
-  "MiscChannelCount": 37,
+  "MiscChannelCount": 26,
   "TriggerChannelCount": 1
 }

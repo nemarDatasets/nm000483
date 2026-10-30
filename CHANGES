@@ -1,3 +1,7 @@
+Unreleased (branch fix-20261030, Oct 2026)
+  - sub-01 seizureonsetspike monopolar channels.tsv: 11 scalp electrodes MISC -> EEG (as in the other two segments' Brainstorm channel files); ieeg.json counts.
+  - README: values of the non-neural channels (TRIG up to 3.5e10, MISC up to 4.1e5) are not microvolts.
+
 1.0.3 2026-10-18
   - ieeg.json of 5 files: RecordingType epoched -> continuous (each file is one contiguous excerpt; no EpochLength or EpochLength = whole file; read_raw_bids refused them and read_epochs_bids failed).
   - README: section 'RecordingType (18 Oct 2026)'.
